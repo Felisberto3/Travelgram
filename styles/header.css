@@ -2,6 +2,11 @@ header {
           padding-block: 32px;
 }
 
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #profile {
           display: flex;
           gap: 32px;
@@ -9,4 +14,26 @@ header {
 
 #profile > div {
           max-width: 384px;
+}
+#profile h1{
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+
+#profile p {
+  font: var(--text-md);
+}
+
+#info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 280px;
+}
+#info li {
+    display: flex;
+  gap: 8px;
 }
